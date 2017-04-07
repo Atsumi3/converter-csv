@@ -30,6 +30,8 @@ List <Human>
 
 一応Data型へのパースをしますが、 "yyyy-MM-dd HH:mm:ss" のフォーマットにしか対応してません
 
+あまり動作確認していません
+
 ## 使用方法
 jitpackを使っています  
 Root の build.gradle に以下を追加して、
