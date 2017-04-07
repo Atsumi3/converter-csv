@@ -35,15 +35,17 @@ jitpackを使っています
 Root の build.gradle に以下を追加して、
 ``` java
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+  repositories {
+  ...
+   maven { url 'https://jitpack.io' }
+  }
+}
 ```
 
 Projectのbuild.gradle に以下を追加してください
+``` java
 dependencies {
-   ...
-	 compile 'com.github.Atsumi3:converter-csv:0.0.1'
+  ...
+  compile 'com.github.Atsumi3:converter-csv:0.0.1'
 }
+```
