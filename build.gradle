@@ -1,0 +1,28 @@
+group 'info.nukoneko.java.lib.retrofit'
+version '0.0.1'
+
+apply plugin: 'java'
+apply plugin: 'maven'
+
+def javaVersion = "1.7"
+def defaultEncoding = 'UTF-8'
+
+//noinspection GroovyUnusedAssignment
+sourceCompatibility = javaVersion
+//noinspection GroovyUnusedAssignment
+targetCompatibility = javaVersion
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.11'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+}
+
+compileJava {
+    options.encoding = defaultEncoding
+    options.setCompilerArgs(['-source', javaVersion, '-target', javaVersion])
+    return void
+}
