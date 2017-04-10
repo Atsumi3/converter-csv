@@ -1,4 +1,5 @@
-# converter-csv
+# converter-csv  
+![Release](https://jitpack.io/v/Atsumi3/converter-csv.svg)  
 Retrofitを使ってCSVをパースしたかった。
 
 ## 使用例
@@ -48,6 +49,6 @@ Projectのbuild.gradle に以下を追加してください
 ``` java
 dependencies {
   ...
-  compile 'com.github.Atsumi3:converter-csv:0.0.1'
+  compile 'com.github.Atsumi3:converter-csv:$latestVersion'
 }
 ```
